@@ -48,16 +48,34 @@
 - npm run lint — (যদি উপস্থিত থাকে) কোড লিন্ট করবে
 - npm test — (যদি টেস্ট কনফিগ করা থাকে) ইউনিট/ইন্টিগ্রেশন টেস্ট চালায়
 
-## ফোল্ডার স্ট্রাকচার (উদাহরণ)
+## ফোল্ডার স্ট্রাকচার
 
-- src/ — অ্যাপ সোর্স কোড
-  - components/ — পুনঃব্যবহারযোগ্য React কম্পোনেন্ট
-  - pages/ — রাউটেড পেজ কম্পোনেন্ট
-  - services/ — সার্ভার / থার্ড-পার্টি API কল ফাংশনসমূহ
-  - assets/ — ছবি, আইকন ইত্যাদি
-  - styles/ — সিএসএস বা স্টাইল সম্পর্কিত ফাইল
-- public/ — স্ট্যাটিক ফাইল
-- index.html — Vite ইনিয়াল HTML
+-  .vercel/
+-  dist/
+-  node_modules/
+-  public/
+-  src/
+  - assets/
+  - components/ — Footer.jsx
+                — Hero.jsx
+                — MovieCard.jsx
+                — MovieGrid.jsx
+                — MovieModal.jsx
+                — Navbar.jsx  
+  - pages/ — Home.jsx
+           — Movie.jsx 
+  - services/ — get-movies.js
+  - App.jsx
+  - index.css
+  - main.jsx
+- .gitignore
+- eslint.config.js
+- index.html
+- package-lock.json
+- package.json
+- README.md
+- vercel.json
+- vite.config.js
 
 ## কনফিগারেশন
 
