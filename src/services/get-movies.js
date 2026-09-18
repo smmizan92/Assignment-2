@@ -1,6 +1,6 @@
 const url = "https://api.tvmaze.com";
 
-async function requestShows(endpoint, errorMessage) {
+const requestShows= async(endpoint, errorMessage) {
   const response = await fetch(`${url}${endpoint}`);
 
   if (!response.ok) {
