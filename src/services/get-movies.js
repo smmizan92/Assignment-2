@@ -15,8 +15,7 @@ export function getAllShows() {
 }
 
 export async function searchShows(query) {
-  const results = await requestShows(
-    `/search/shows?q=${encodeURIComponent(query)}`,
+  const results = await requestShows(`/search/shows?q=${encodeURIComponent(query)}`,
     "Search failed",
   );
 
